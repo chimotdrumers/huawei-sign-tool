@@ -1,0 +1,21 @@
+balong
+:-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+FW_V4_T1 (ALL_OK)
+FW_WEBUI_v4 ok (ALL_OK)
+FW_ISO_V4_T1 ok 
+FW_ISO_WEBUI_V4_T1 ok (ALL_OK)
+***************************************************
+ 
+ISO_WEB_V4_T1 (ALL_OK)
+
+***************************************************
+FW_LOGO_V4_T1 (ALL_OK)(repack if firmware error in balong any part of firmware )
+FW_ISO_WEBUI_LOGO_V4_T1 (ALL_OK)(repack if firmware error in balong any part of firmware )
+
+****************************************************
+in progress 
+
+FW_LOGO_WEBUI_V4_T1
+FW_LOGO_ISO_V4_T1
+ONLY WEBUI_V4

@@ -1,0 +1,71 @@
+genesis@genesis:~/Desktop/5/test$ cpio -im -F 08-00590000-System.bin
+29140 blocks
+genesis@genesis:~/Desktop/5/test$ mv 08-00590000-System.bin ../08-00590000-System.bin.bak 
+genesis@genesis:~/Desktop/5/test$ find | cpio -o -H newc -F ../08-00590000-System.bin 
+29615 blocks
+genesis@genesis:~/Desktop/5/test$ 
+
+
+
+
+
+
+
+
+steps
+
+step 1
+
+cpio -im -F 08-00590000-System.bin
+
+step 2
+
+mv 08-00590000-System.bin ../08-00590000-System.bin.bak 
+
+step 3
+
+
+
+find | cpio -o -H newc -F ../08-00590000-System.bin 
+
+v2 
+
+step 1
+
+cpio -im -F 09-00590000-System.bin
+
+step 2
+
+mv 09-00590000-System.bin ../09-00590000-System.bin.bak 
+
+step 3
+
+
+
+find | cpio -o -H newc -F ../09-00590000-System.bin 
+
+
+sign log
+
+
+root@p711:/ # at^dloadinfoat^dloadinfo
+130|root@p711:/ # at^dloadinfo
+/bin/sh: at^dloadinfo: not found
+127|root@p711:/ # atc at^dloadinfo
+
+ERROR
+root@p711:/ # atc at^dloadinfo?
+
+swver:21.329.01.00.00
+
+isover:00.00.00.000.00
+
+webuiver:WEBUI_17.100.09.00.03_CPE
+
+product name:B315s-22
+
+dload type:0
+
+OK
+root@p711:/ #
+130|root@p711:/ #

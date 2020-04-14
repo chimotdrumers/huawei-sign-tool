@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+    <sign>
+        <signVer>1.3</signVer>
+        <append>
+            <input>./images/00-00110000-Fastboot.bin</input>
+            <output>./images/00-00110000-Fastboot-s.bin</output>
+        </append>
+        <versionInfo>
+            <!--note>
+                <note: type的值需按照当前文件类型配置,参考《HUAWEI MBB 安全升级方案v2.02》文档>
+            </note-->
+            <type>3</type>
+            <productID>%1</productID>
+            <versionNum>%2</versionNum>
+            <ISOVersion>%3</ISOVersion>
+            <WebUIVersion></WebUIVersion>
+            <algorithm>0</algorithm>
+            <deltaVer></deltaVer>
+        </versionInfo>
+        <group name="own">
+            <list>
+				<component fileId="0x00110000">./Images/00-00110000-Fastboot.bin</component>
+				<component fileId="0x00020000">./Images/01-00020000-M3boot.bin</component>	
+				<component fileId="0x00010000">./Images/02-00010000-M3Boot-ptable.bin</component>
+				<component fileId="0x00030000">./Images/03-00030000-Kernel.bin</component>	
+				<component fileId="0x00040000">./Images/04-00040000-VxWorks.bin</component>	
+				<component fileId="0x00050000">./Images/05-00050000-M3Image.bin</component>
+				<component fileId="0x00060000">./Images/06-00060000-DSP.bin</component>
+				<component fileId="0x00070000">./Images/07-00070000-Nvdload.bin</component>
+				<component fileId="0x00130000">./Images/08-00130000-Logo.bin</component>
+				<component fileId="0x00590000">./Images/09-00590000-System.bin</component>
+				<component fileId="0x005A0000">./Images/10-005a0000-APP.bin</component>
+                <component fileId="0x000b0000">./images/11-000b0000-CDROMISO.bin</component>
+            </list>
+            <encryption>
+                <privateKey type="der">private.key</privateKey>
+                <publicKey type="der">public.key</publicKey>
+            </encryption>
+        </group>
+        <!--group name="3rdparty">
+            <list>
+                <component fileId="0x00590000">hilink.bin</component>
+                <component fileId="0x005A0000">hilink.bin</component>
+                <component fileId="0x00130000">hilink.bin</component>
+            </list>
+            <encryption>
+                <privateKey type="der"></privateKey>
+                <certification></certification>
+            </encryption>
+        </group-->
+    </sign>
+    <merge>
+        <input>
+			<component fileId="0x00110000" desc="%1" seccode="0x4857455731312e31">./Images/00-00110000-Fastboot-s.bin</component>
+			<component fileId="0x00020000" desc="%1" seccode="0x4857455731312e31">./Images/01-00020000-M3boot.bin</component>
+			<component fileId="0x00010000" desc="%1" seccode="0x4857455731312e31">./Images/02-00010000-M3Boot-ptable.bin</component>
+			<component fileId="0x00030000" desc="%1" seccode="0x4857455731312e31">./Images/03-00030000-Kernel.bin</component>
+			<component fileId="0x00040000" desc="%1" seccode="0x4857455731312e31">./Images/04-00040000-VxWorks.bin</component>
+			<component fileId="0x00050000" desc="%1" seccode="0x4857455731312e31">./Images/05-00050000-M3Image.bin</component>
+			<component fileId="0x00060000" desc="%1" seccode="0x4857455731312e31">./Images/06-00060000-DSP.bin</component>
+			<component fileId="0x00070000" desc="%1" seccode="0x4857455731312e31">./Images/07-00070000-Nvdload.bin</component>
+			<component fileId="0x00130000" desc="%1" seccode="0x4857455731312e31">./Images/08-00130000-Logo.bin</component>
+			<component fileId="0x00590000" desc="%1" seccode="0x4857455731312e31">./Images/09-00590000-System.bin</component>
+			<component fileId="0x005A0000" desc="%1" seccode="0x4857455731312e31">./Images/10-005a0000-APP.bin</component>
+			<component fileId="0x000b0000" desc="%1" seccode="0x4857455731312e31">./images/11-000b0000-CDROMISO.bin</component>
+		</input>
+        <output type="3" signed="true" algorithm="0" pid="" deltaVer="">%2</output>
+	</merge>
+</packet>
+

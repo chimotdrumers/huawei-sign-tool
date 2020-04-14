@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+    <merge>
+        <input>
+          <component fileId="0x00110000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/00-00110000-Fastboot-s.zlib</component>
+	      <component fileId="0x00200000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/01-00200000-M3Boot_R11.zlib</component>
+          <component fileId="0x00010000" desc="%1" seccode="0x4857455731312e31">./images/02-00010000-M3Boot-ptable.bin</component>
+		  <component fileId="0x00230000" desc="%1" seccode="0x4857455731312e31">./images/03-00230000-M3Image_R11.bin</component>
+	      <component fileId="0x00270000" desc="%1" seccode="0x4857455731312e31">./images/04-00270000-DTS_R11.bin</component>
+		  <component fileId="0x00090000" desc="%1" seccode="0x4857455731312e31">./images/05-00090000-Kernel_R11.bin</component>
+		  <component fileId="0x001e0000" desc="%1" seccode="0x4857455731312e31">./images/06-001e0000-Modem_fw.bin</component>
+		  <component fileId="0x00280000" desc="%1" seccode="0x4857455731312e31">./images/07-00280000-HIFI_R11.bin</component>
+		  <component fileId="0x00250000" desc="%1" seccode="0x4857455731312e31">./images/08-00250000-Nvdload_R11.bin</component>
+		  <component fileId="0x00590000" desc="%1" seccode="0x4857455731312e31">./images/09-00590000-System.bin</component>
+		  <component fileId="0x005A0000" desc="%1" seccode="0x4857455731312e31">./images/10-005a0000-APP.bin</component>
+		  <component fileId="0x005b0000" desc="%1" seccode="0x4857455731312e31">./images/11-005b0000-WEBUI.bin</component>
+        </input>
+        <output type="5" signed="true" algorithm="0" pid="" deltaVer="">%2</output>
+	</merge>
+</packet>

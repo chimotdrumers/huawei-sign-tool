@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+    <merge>
+        <input>
+          <component fileId="0x00110000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/00-00110000-Fastboot-s.zlib</component>
+	      <component fileId="0x00200000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/01-00200000-M3Boot_R11.zlib</component>
+          <component fileId="0x00010000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/02-00010000-M3Boot-ptable.zlib</component>
+		  <component fileId="0x00230000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/03-00230000-M3Image_R11.zlib</component>
+	      <component fileId="0x00270000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/04-00270000-DTS_R11.zlib</component>
+		  <component fileId="0x00090000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/05-00090000-Kernel_R11.zlib</component>
+		  <component fileId="0x00220000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/06-00220000-VxWorks_R11.zlib</component>
+		  <component fileId="0x00240000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/07-00240000-DSP_R11.zlib</component>
+		  <component fileId="0x00280000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/08-00280000-HIFI_R11.zlib</component>
+		  <component fileId="0x00250000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/09-00250000-Nvdload_R11.zlib</component>
+		  <component fileId="0x00590000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/10-00590000-System.zlib</component>
+		  <component fileId="0x005A0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/11-005a0000-APP.zlib</component>
+        </input>
+        <output type="1" signed="true" algorithm="0" pid="" deltaVer="">%2</output>
+	</merge>
+</packet>
+
+./zlib_temp/
