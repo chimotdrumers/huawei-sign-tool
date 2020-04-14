@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+    <merge>
+        <input>
+			
+			<component fileId="0x000A0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/00-000a0000-Oeminfo.zlib</component>
+			<component fileId="0x000B0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/01-000b0000-CDROMISO.zlib</component>
+			<component fileId="0x005B0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/02-005b0000-WEBUI.zlib</component>
+        </input>
+        <output type="6" signed="true" algorithm="0" pid="" deltaVer="">%1</output>
+	</merge>
+</packet>

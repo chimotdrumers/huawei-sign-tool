@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting>
+     <UpdateBasicInfo>
+        <item name="UPDATAWIZARD_VERSION"        value=""/>
+        <item name="UPGRADE_TYPE"                value=""/>
+        <item name="DIARY_GRADE"                  value=""/>
+        <item name="DIARY_PATH"                  value=""/>
+        <item name="FIRMWARE_PRODUCT_NAME"        value=""/>
+        <item name="FIRMWARE_VERSION"            value=""/>
+        <item name="DASHBOARD_WINVERSION"        value=""/>
+        <item name="ORDER_REPEAT_TIMES"          value=""/>
+        <item name="ORDER_WAIT_FOR_TIME"          value=""/>
+        <item name="CHECK_EQUIPMENT_TIMES"        value=""/>
+     </UpdateBasicInfo>
+     <DeviceInfo>
+        <PCUI>
+            <element name="HUAWEI Mobile Connect - 3G PC UI Interface"/>
+            <element name="HUAWEI Mobile Connect - PC UI Interface"/>
+            <element name="Vodafone Mobile Broadband Secondary Port Modem (Huawei)"/>
+            <element name="Mobile Connect - PC UI Interface"/>
+            <element name="HUAWEIMobile-Pcui"/>
+            <element name="FC - PC UI Interface"/>
+            <element name="/dev/ttyUSB_utps_pcui"/>
+            <element name="/dev/cu.MBBFC-Pcui"/>
+            <element name="/dev/cu.HUAWEIMobile-Pcui"/>
+        </PCUI>
+        <DIAG>
+            <element name="HUAWEI Mobile Connect - 3G Application Interface"/>
+            <element name="HUAWEI Mobile Connect - Application Interface"/>
+            <element name="Vodafone Mobile Broadband Diagnostics Port (Huawei)"/>
+            <element name="Mobile Connect - Application Interface"/>
+            <element name="FC - Application Interface"/>
+            <element name="HUAWEIMobile-Diag"/>
+            <element name="/dev/cu.MBBFC-Diag"/>
+            <element name="/dev/cu.HUAWEIMobile-Diag"/>
+            <element name="/dev/ttyUSB_utps_diag"/>
+        </DIAG>
+        <MBIM>
+            <element name="HUAWEI MOBILE"/>
+            <element name="HUAWEI Mobile"/>
+			<element name="Huawei Mobile"/>
+            <element name="HUAWEI Mobile Broadband Module"/>
+            <element name="HUAWEI MBIM Device"/>
+        </MBIM>
+        <PID>
+             <element name="14db"/>
+             <element name="14dc"/>
+             <element name="14dd"/>
+             <element name="1441"/>
+             <element name="14d7"/>
+             <element name="14d8"/>
+             <element name="14d9"/>
+             <element name="14de"/>
+             <element name="14df"/>
+        </PID>
+    </DeviceInfo>
+    <FCSwitchPortUrlPath>/html/switchProjectMode.html</FCSwitchPortUrlPath>
+</setting>
+ 
