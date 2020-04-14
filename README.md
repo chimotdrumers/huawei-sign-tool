@@ -2,6 +2,8 @@ Huawei sign tool is designed to be used in windows based on batch scripting.The 
 
 Huawei sign tool has two basic processing methods used 1.Auto all 2.Make all
 
+"Please install python,winrar,7zip ro avoid any errors while using"
+
 Auto all the scripting is limited to already modified binary to be auto extracted and signed. The signing information is to be predefined in the version.Bat file.
 
 Make all the scripting is used in readily extracted batch file being used and helpful in compiling all possible types of firmware and sign when the user indeed need to change or intercorporate webui,convert existing firmware from one type to another.
