@@ -85,7 +85,7 @@ set FILE_NAME=13-005b0000-WEBUI.bin
 
 @REM Back to previous directory
 cd ../
-.\IsohdGen.exe -v%3  -t./Images/ISOhd.iso
+.\IsohdGen.exe -v%3  -t./Images/11-000a0000-Oeminfo.bin
 
 @REM Component signature first
 sign.exe ./xml/packet_fw_iso_webui_logo_V4_T1.xml -p %1 %2 %3 %5
@@ -121,7 +121,8 @@ merge.exe ./xml/packet_fw_iso_webui_logo_V4_zip_T1.xml -p :%1:%2 %4_update_%2_%3
 @if exist *.mbn   del /f /a *.mbn  
 @if exist MOBILE_CONNECT_HD.bin del /f /a MOBILE_CONNECT_HD.bin
 
-WizGen.exe "%4"  
+WizGen.exe "%4" 
+
 @move %4_update_%2_%3.bin %FILE_FIRMWARE_PATH%
 @move %4_update_%2_%3.zip %FILE_FIRMWARE_PATH%
 @move %4_update_*.exe %FILE_FIRMWARE_PATH%	
@@ -134,7 +135,7 @@ WizGen.exe "%4"
 @echo ####  Upgrade package ID 			 %FILE_DLOAD_ID%
 @echo ####  Productroduct name 			 %FILE_PRODUCT_NAME%
 @echo ##########################################################
-@timeout 15
+@timeout 5
 exit
 exit
 :usage1
@@ -152,3 +153,5 @@ echo Error: Please provide the product name
 :usage5
 @echo off
 echo Error: Please provide the %FILE_NAME% image,thanks!
+timeout 5
+exit

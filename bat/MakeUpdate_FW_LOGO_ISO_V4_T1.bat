@@ -124,7 +124,7 @@ WizGen.exe "%4"
 @echo ####  Upgrade package ID 			 %FILE_DLOAD_ID%
 @echo ####  Productroduct name 			 %FILE_PRODUCT_NAME%
 @echo ##########################################################
-@pause
+timeout 5
 exit
 exit
 :usage1

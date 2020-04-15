@@ -36,7 +36,7 @@ set ZLIB_FILE_TEMP=zlib_temp
 @if not exist %ZLIB_FILE_TEMP% mkdir %ZLIB_FILE_TEMP%
 @if exist %ZLIB_FILE_TEMP% del /q /f %ZLIB_FILE_TEMP%\*.*
 
-IsohdGen.exe -v%1 -t./Images/ISOhd.iso 
+IsohdGen.exe -v%1 -t./Images/00-000a0000-Oeminfo.bin
 
 sign.exe ./xml/packet_iso_webui_V4_T1.xml -p %1 %2
 
@@ -71,7 +71,7 @@ WizGen.exe "%1"
 @echo ####  Productroduct name 			 %FILE_PRODUCT_NAME%
 @echo ##########################################################
 
-pause
+timeout 5
 exit
  
 :usage1
@@ -85,3 +85,5 @@ echo Error: Please input the webui version
 :usage3
 @echo off
 echo Error: Please provide the %FILE_NAME% image,thanks!
+timeout 5
+exit

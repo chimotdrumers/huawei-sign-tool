@@ -115,7 +115,7 @@ WizGen.exe "%3"
 @echo ####  Upgrade package ID 			 %FILE_DLOAD_ID%
 @echo ####  Productroduct name 			 %FILE_PRODUCT_NAME%
 @echo ##########################################################
-@timeout 15
+@timeout 5
 exit
 exit
 :usage1
@@ -133,4 +133,5 @@ echo Error: Please provide the product name
 :usage5
 @echo off
 echo Error: Please provide the %FILE_NAME% image,thanks!
-pause
+timeout 5
+exit
