@@ -14,4 +14,5 @@ echo off
 
 call VersionDefine.bat
 call .\bat\MakeUpdate_ISO_WEB_V4_T1.bat %DASHBOARD_VER% %WEBUI_VER%
-pause
+timeout 5
+exit

@@ -1,17 +1,18 @@
-genesis@genesis:~/Desktop/5/test$ cpio -im -F 08-00590000-System.bin
-29140 blocks
-genesis@genesis:~/Desktop/5/test$ mv 08-00590000-System.bin ../08-00590000-System.bin.bak 
-genesis@genesis:~/Desktop/5/test$ find | cpio -o -H newc -F ../08-00590000-System.bin 
-29615 blocks
-genesis@genesis:~/Desktop/5/test$ 
+======================================
+cpio -im -F 08-00590000-System.bin
 
+mv 08-00590000-System.bin ../08-00590000-System.bin.bak 
 
+find | cpio -o -H newc -F ../08-00590000-System.bin
 
+======================================
+cpio -im -F 09-00590000-System.bin
 
+mv 09-00590000-System.bin ../09-00590000-System.bin.bak 
 
+find | cpio -o -H newc -F ../09-00590000-System.bin
 
-
-
+=======================================
 steps
 
 step 1
@@ -68,4 +69,8 @@ dload type:0
 
 OK
 root@p711:/ #
-130|root@p711:/ #
+cpio -im -F 02-005b0000-WEBUI.bin
+
+mv 02-005b0000-WEBUI.bin ../02-005b0000-WEBUI.bak 
+
+find | cpio -o -H newc -F ../02-005b0000-WEBUI.bin

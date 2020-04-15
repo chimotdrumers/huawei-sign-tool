@@ -1,0 +1,665 @@
+.LOG
+title b315
+                                                                                                                                                                                                                                                                                                                                                                            @rem set the upgrade ID
+set FILE_DLOAD_ID=BV7R11CB315
+
+@REM The REM product name is also defined here, in order to unify compatible products, set here, and the main line set set FILE_PRODUCT_NAME=M9625E or support CPIO package set FILE_PRODUCT_NAME=M9625E
+@REM Subsequent products like HWD14 need to be modified here to set FILE_PRODUCT_NAME=HWD14
+set FILE_PRODUCT_NAME=B315s-22
+
+@rem Set the software version number
+set SOFTWARE_VER=21.329.01.00.397
+
+@rem Set the background version number
+set DASHBOARD_VER=00.00.00.000.00
+
+@rem Set the WEBUI version number
+set WEBUI_VER=WEBUI_17.100.09.00.397_CPE
+
+title e5787
+
+@rem set the upgrade ID
+set FILE_DLOAD_ID=BV7R2E6
+
+@REM The REM product name is also defined here, in order to unify compatible products, set here, and the main line set set FILE_PRODUCT_NAME=M9625E or support CPIO package set FILE_PRODUCT_NAME=M9625E
+@REM Subsequent products like HWD14 need to be modified here to set FILE_PRODUCT_NAME=HWD14
+set FILE_PRODUCT_NAME=E5787s-33a
+
+@rem Set the software version number
+set SOFTWARE_VER=21.315.09.00.1133
+
+@rem Set the background version number
+set DASHBOARD_VER=WEBUI_17.100.14.02.1133_NE5
+
+@rem Set the WEBUI version number
+set WEBUI_VER=WEBUI_17.100.14.02.1133_NE5
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+09:30 PM 04/06/2019
+@rem set the upgrade ID
+set FILE_DLOAD_ID=BV7R2E6
+
+@REM The REM product name is also defined here, in order to unify compatible products, set here, and the main line set set FILE_PRODUCT_NAME=M9625E or support CPIO package set FILE_PRODUCT_NAME=M9625E
+@REM Subsequent products like HWD14 need to be modified here to set FILE_PRODUCT_NAME=HWD14
+set FILE_PRODUCT_NAME=E5787s-33a
+
+@rem Set the software version number
+set SOFTWARE_VER=21.315.05.01.1367
+
+@rem Set the background version number
+set DASHBOARD_VER=WEBUI_17.100.15.05.1367_NE5
+
+@rem Set the WEBUI version number
+set WEBUI_VER=WEBUI_17.100.15.05.1367_NE5
+
+09:53 PM 04/06/2019
+
+10:06 PM 04/06/2019
+
+11:19 AM 08/06/2019
+
+06:28 PM 21/06/2019
+
+10:29 PM 09-09-2019
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+at^dloadinfo?
+
+swver:21.315.09.00.1006
+isover:WEBUI_17.100.15.02.1006_NE5
+webuiver:WEBUI_17.100.18.01.1133_NE5
+product name:E5787s-33a
+dload type:0
+OK
+?
+at^version?
+
+^VERSION:BDT:Mar 04 2017, 19:26:11
+^VERSION:EXTS:21.315.09.00.1006
+^VERSION:INTS:21.315.09.00.1006
+^VERSION:EXTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:INTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:EXTH:CL2E5787SM Ver.A
+^VERSION:INTH:CL2E5787SM Ver.A
+^VERSION:EXTU:E5787s-33a
+^VERSION:INTU:E5787s-33a
+^VERSION:CFG:1005
+^VERSION:PRL:
+^VERSION:OEM:
+^VERSION:INI:
+OK
+
+ati
+
+Manufacturer: huawei
+Model: E5787s-33a
+Revision: 21.315.09.00.1006
+IMEI: 355183048021799
++GCAP: +CGSM,+DS,+ES
+OK
+
+
+04:28 PM 23-09-2019
+
+04:32 PM 23-09-2019
+
+04:33 PM 23-09-2019
+
+16-04-2019  06:09 PM               577 Make_FW_ISO_V4_T1.bat
+13-04-2019  11:57 PM               561 Make_FW_ISO_V5_T1.bat
+05-05-2019  10:45 PM               561 Make_FW_ISO_V5_T2.bat
+14-04-2019  03:50 AM               593 Make_FW_ISO_WEBUI_LOGO_V4_T1.bat
+09-07-2019  11:18 PM               593 Make_FW_ISO_WEBUI_LOGO_V4_T2.bat
+14-04-2019  10:21 PM               593 Make_FW_ISO_WEBUI_LOGO_V5_T1.bat
+15-04-2019  06:57 PM               557 Make_FW_ISO_WEBUI_LOGO_V5_T2.bat
+16-04-2019  06:08 PM               547 Make_FW_ISO_WEBUI_V4_T1.bat
+14-04-2019  10:13 PM               551 Make_FW_ISO_WEBUI_V5.bat
+06-05-2019  09:13 AM               587 Make_FW_LOGO_ISO_V4_T1.bat
+11-07-2019  04:58 PM               589 Make_FW_LOGO_V4_T1.bat
+11-07-2019  04:49 PM               592 Make_FW_LOGO_V4_T2.bat
+09-03-2019  03:02 PM               577 Make_FW_LOGO_V5.bat
+06-05-2019  08:19 AM               575 Make_FW_LOGO_WEBUI_V4_T1.bat
+07-05-2019  12:27 AM               561 Make_FW_V4_T1.bat
+18-04-2019  05:20 PM               541 Make_FW_V5_T1.bat
+18-04-2019  05:30 PM               541 Make_FW_v5_T2.bat
+18-04-2019  07:24 PM               543 Make_FW_V5_T3.bat
+07-05-2019  12:29 AM               569 Make_FW_WEBUI_V4.bat
+17-04-2019  09:08 PM               565 Make_FW_WEBUI_v5_T1.bat
+17-04-2019  12:06 AM               565 Make_FW_WEBUI_v5_T2.bat
+05-03-2019  08:27 PM               528 Make_HOTA.bat
+05-03-2019  08:27 PM               463 Make_ISO.bat
+07-05-2019  12:32 AM               542 Make_ISO_WEB_V4_T1.bat
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+at^dloadinfo?
+
+swver:21.315.09.00.1006
+isover:WEBUI_17.100.15.02.1006_NE5
+webuiver:WEBUI_17.100.18.01.1133_NE5
+product name:E5787s-33a
+dload type:0
+OK
+?
+at^version?
+
+^VERSION:BDT:Mar 04 2017, 19:26:11
+^VERSION:EXTS:21.315.09.00.1006
+^VERSION:INTS:21.315.09.00.1006
+^VERSION:EXTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:INTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:EXTH:CL2E5787SM Ver.A
+^VERSION:INTH:CL2E5787SM Ver.A
+^VERSION:EXTU:E5787s-33a
+^VERSION:INTU:E5787s-33a
+^VERSION:CFG:1005
+^VERSION:PRL:
+^VERSION:OEM:
+^VERSION:INI:
+OK
+
+ati
+
+Manufacturer: huawei
+Model: E5787s-33a
+Revision: 21.315.09.00.1006
+IMEI: 355183048021799
++GCAP: +CGSM,+DS,+ES
+OK
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+at^godload
+
+OK
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM7
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+at^reset
+
+
+OK
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM7
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+ati
+
+
+Manufacturer: huawei
+Model: E5787s-33a
+Revision: 21.315.09.00.1006
+IMEI: 355183048021799
++GCAP: +CGSM,+DS,+ES
+OK
+
+at^version?
+
+^VERSION:BDT:Mar 04 2017, 19:26:11
+^VERSION:EXTS:21.315.09.00.1006
+^VERSION:INTS:21.315.09.00.1006
+^VERSION:EXTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:INTD:WEBUI_17.100.15.02.1006_NE5
+^VERSION:EXTH:CL2E5787SM Ver.A
+^VERSION:INTH:CL2E5787SM Ver.A
+^VERSION:EXTU:E5787s-33a
+^VERSION:INTU:E5787s-33a
+^VERSION:CFG:1005
+^VERSION:PRL:
+^VERSION:OEM:
+^VERSION:INI:
+OK
+
+at^dloadinfo?
+
+swver:21.315.09.00.1006
+isover:WEBUI_17.100.15.02.1006_NE5
+webuiver:WEBUI_17.100.18.01.1133_NE5
+product name:E5787s-33a
+dload type:0
+OK
+at^godload
+
+OK
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM7
+
+Found modem         : E5787s-33a
+Model               : Unknown Huawei router (AuthVer 4)
+IMEI                : 355183048021799
+Serial NR.          : QTFDU16416004989
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.15.02.1006_NE5
+Web UI version      : WEBUI_17.100.18.01.1133_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+at^reset
+
+OK
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Unknown Huawei router (AuthVer 4)
+
+Selected Applications port COM7
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Unknown Huawei router (AuthVer 4)
+IMEI                : 869516020272345
+Serial NR.          : QTFDU16512002339
+Firmware            : 21.315.09.00.1006
+Compile date / time : Mar  4 2017 19:23:30
+Hardware ver.       : CL2E5787SM
+Dashboard version   : WEBUI_17.100.20.01.03_NE5
+Web UI version      : WEBUI_17.100.20.01.03_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Unknown Huawei router (AuthVer 4)
+
+Selected Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+modem not found !
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Auto detect (recommended)
+
+Found Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 869516020272345
+Serial NR.          : QTFDU16512002339
+Firmware            : 21.317.09.00.00
+Dashboard version   : WEBUI_17.100.20.01.03_NE5
+Web UI version      : WEBUI_17.100.20.01.03_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 869516020272345
+Serial NR.          : QTFDU16512002339
+Firmware            : 21.317.09.00.00
+Dashboard version   : WEBUI_17.100.20.01.03_NE5
+Web UI version      : WEBUI_17.100.20.01.03_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+AT^PHYNUM=IMEI,355183048021799
+
+
+ERROR
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 869516020272345
+Serial NR.          : QTFDU16512002339
+Firmware            : 21.317.09.00.00
+Dashboard version   : WEBUI_17.100.20.01.03_NE5
+Web UI version      : WEBUI_17.100.20.01.03_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+===================================================================
+
+DC - Unlocker 2 Client 1.00.1413
+
+Detecting modem :
+
+selection :
+manufacturer - Huawei modems
+model - Huawei AuthVer 4 modem (New)
+
+Selected Applications port COM4
+
+Found modem         : E5787s-33a
+Model               : Huawei AuthVer 4 modem (New)
+IMEI                : 869516020272345
+Serial NR.          : QTFDU16512002339
+Firmware            : 21.317.09.00.00
+Dashboard version   : WEBUI_17.100.20.01.03_NE5
+Web UI version      : WEBUI_17.100.20.01.03_NE5
+SIM Lock status     : unlocked
+Wrong codes entered : 0 (unlock attempts left : 10)
+
+===================================================================
+
+ati
+
+Manufacturer: huawei
+Model: E5787s-33a
+Revision: 21.317.09.00.00
+IMEI: 869516020272345
++GCAP: +CGSM,+DS,+ES
+OK
+
+at^version?
+
+^VERSION:BDT:May 23 2018, 17:08:33
+^VERSION:EXTS:21.317.09.00.00
+^VERSION:INTS:
+^VERSION:EXTD:WEBUI_17.100.20.01.03_NE5
+^VERSION:INTD:
+^VERSION:EXTH:CL2E5787SM Ver.A
+^VERSION:INTH:
+^VERSION:EXTU:E5787s-33a
+^VERSION:INTU:
+^VERSION:CFG:1005
+^VERSION:PRL:
+^VERSION:OEM:
+^VERSION:INI:E5787sCUST-B00C397
+OK
+
+at^dloadinfo?
+
+swver:21.317.09.00.00
+isover:WEBUI_17.100.20.01.03_NE5
+webuiver:WEBUI_17.100.20.01.03_NE5
+product name:E5787s-33a
+dload type:0
+OK
+

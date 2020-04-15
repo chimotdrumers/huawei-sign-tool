@@ -12,4 +12,5 @@ del /q /f %FILE_FIRMWARE_PATH%\*.*
 
 call VersionDefine.bat
 call .\bat\MakeUpdate_FW_WEBUI_v4.bat %FILE_DLOAD_ID% %SOFTWARE_VER% %FILE_PRODUCT_NAME% %WEBUI_VER%
-pause
+timeout 5
+exit

@@ -12,4 +12,6 @@ del /q /f %FILE_FIRMWARE_PATH%\*.*
 
 call VersionDefine.bat
 call .\bat\MakeUpdate_FW_V4_T1.bat %FILE_DLOAD_ID% %SOFTWARE_VER% %FILE_PRODUCT_NAME%
-pause
+echo off
+timeout 5
+exit
