@@ -11,11 +11,11 @@ ISO_WEB_V4_T1 (ALL_OK)
 
 ***************************************************
 FW_LOGO_V4_T1 (ALL_OK)(repack if firmware error in balong any part of firmware )
+FW_LOGO_WEBUI_V4_T1 (ALL_OK)(repack if firmware error in balong any part of firmware )
 FW_ISO_WEBUI_LOGO_V4_T1 (ALL_OK)(repack if firmware error in balong any part of firmware )
+FW_LOGO_ISO_V4_T1 (not used in most cases)
 
+above the case of lzma packed system get issue in most of times mainly v4 e5787 
+testes multimple times and confirmed not problem in signing use only *.bin type instead compresses *.gzip
 ****************************************************
-in progress 
-
-FW_LOGO_WEBUI_V4_T1
-FW_LOGO_ISO_V4_T1
-ONLY WEBUI_V4
+ONLY WEBUI_V4 in progress
