@@ -1,4 +1,4 @@
-Huawei sign tool is designed to be used in windows based on batch scripting.The tool is tested and known to be working in most cases.The sign tool used public and private keys which are held public and I owe no copyrights or I am owner of this. The parts of the program or the method of signing implemented I owe no rights to the files and programs the properity user lies liable to use of it in all manner
+Huawei sign tool is designed to be used in windows based on batch scripting.The tool is tested and known to be working in most cases.The sign tool used public and private keys which are held public and I owe no copyrights or I am held ownershop of this. The parts of the program or the method of signing implemented I owe no rights to the files and programs the properity user lies liable to use of it in all manner.
 
 Huawei sign tool has two basic processing methods used 1.Auto all 2.Make all
 
@@ -20,7 +20,7 @@ The basic types of firmware known or available source:https://github.com/forth32
 
 
 
-"00-UNKNOWN"
+ "00-UNKNOWN"
 
  "01-ONLY_FW"
 
