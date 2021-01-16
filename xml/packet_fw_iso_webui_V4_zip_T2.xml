@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<packet>
+    <merge>
+		<input>
+			<component fileId="0x00110000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/00-00110000-Fastboot-s.zlib</component>
+			<component fileId="0x00020000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/01-00020000-M3Boot.zlib</component>
+			<component fileId="0x00010000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/02-00010000-M3Boot-ptable.zlib</component>
+			<component fileId="0x00090000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/03-00030000-Kernel.zlib</component>
+			<component fileId="0x00220000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/04-00040000-VxWorks.zlib</component>
+			<component fileId="0x00230000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/05-00050000-M3Image.bin.zlib</component>
+			<component fileId="0x00240000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/06-00060000-DSP.zlib</component>
+			<component fileId="0x00250000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/07-00070000-Nvdload.zlib</component>
+			<component fileId="0x00590000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/08-00590000-System.zlib</component>
+			<component fileId="0x005A0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/09-005a0000-APP.zlib</component>
+			<component fileId="0x000A0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/10-000a0000-Oeminfo.zlib</component>
+			<component fileId="0x000B0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/11-000b0000-CDROMISO.zlib</component>
+			<component fileId="0x005B0000" desc="%1" seccode="0x4857455731312e31">./zlib_temp/12-005b0000-WEBUI.zlib</component>
+        </input>
+        <output type="7" signed="true" algorithm="0" pid="" deltaVer="">%2</output>
+	</merge>
+</packet>
+
