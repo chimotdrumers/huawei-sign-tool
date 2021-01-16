@@ -1,5 +1,8 @@
 @echo off
 echo on
+cd ..
+del *.bin
+cd balong
 
 @ren *1*.Bin f.bin
 @ren *2*.Bin f.bin
