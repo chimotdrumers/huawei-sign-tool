@@ -1,8 +1,6 @@
 @echo off
 echo on
-cd ..
-del *.bin
-cd balong
+start /wait cmd /k call cleanimgfolder.bat
 
 @ren *1*.Bin f.bin
 @ren *2*.Bin f.bin
